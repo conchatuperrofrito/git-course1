@@ -1,0 +1,18 @@
+section {
+  text-align: center;
+}
+#maintable {
+  width: 80%;
+  margin: auto 10%;
+  text-align: center;
+}
+.mitabla {
+  width: 18%;
+  padding: 20px 0;
+}
+.mitabla thead {
+  background-color: gray;
+}
+.mitabla tfoot {
+  background-color: antiquewhite;
+}

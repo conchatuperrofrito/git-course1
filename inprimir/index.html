@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pdf</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <style></style>
+    <section>
+      <div>
+        <h1>ExPORTAR tabla a pdf</h1>
+      </div>
+      <div id="maintable">
+        <h1>Mi tabla</h1>
+        <table class="mitabla">
+          <thead>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>fin</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <th>enero</th>
+                <th>$150</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th>enero</th>
+                <th>$150</th>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>TOTAL</th>
+                <th>2</th>
+                <th>$250</th>
+              </tr>
+            </tfoot>
+          </thead>
+        </table>
+      </div>
+      <div>
+        <button id="pdfout">generar pdf</button>
+      </div>    
+    </section>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.js"></script>
+  <script src="js.js"></script>
+</html>
